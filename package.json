@@ -1,0 +1,42 @@
+{
+  "name": "execute-user-content",
+  "version": "0.0.0",
+  "main": "lib/execute-user-content.js",
+  "description": "Test user content in sandbox",
+  "homepage": "https://github.com/kirstein/execute-user-content",
+  "bugs": "https://github.com/kirstein/execute-user-content/issues",
+  "author": {
+    "name": "kirstein",
+    "email": "mikk@kolmas.org",
+    "url": "kirstein.me"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kirstein/execute-user-content"
+  },
+  "license": "MIT",
+  "files": [
+    "lib"
+  ],
+  "keywords": [
+    "execute-user-content",
+    ""
+  ],
+  "devDependencies": {
+    "grunt-contrib-jshint": "^0.10.0",
+    "grunt-contrib-nodeunit": "^0.3.3",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-mocha-cli": "^1.9.0",
+    "jshint-stylish": "^0.2.0",
+    "load-grunt-tasks": "^0.4.0",
+    "should": "^4.0.4",
+    "time-grunt": "^0.3.1"
+  },
+  "scripts": {
+    "test": "grunt"
+  },
+  "preferGlobal": "true",
+  "dependencies": {
+    "sandbox": "^0.8.6"
+  }
+}
